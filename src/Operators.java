@@ -1,9 +1,44 @@
+import javax.crypto.spec.PSource;
+import java.util.Locale;
+
 public class Operators {
     static int a =10;
     static int b = 10;
      static int c =14;
 
+     static String name = "rajesh";
+     static String name1 ="I AM living in london";
+     static String name2 ="Rajesh";
+
     public static void main(String[] args) {
+      //  System.out.println(name.toUpperCase());
+      //  System.out.println(name1.toLowerCase());
+      //  String[] parts = name1.split(" ");
+     //   System.out.println(parts[0]);
+      //  System.out.println(parts[1]);
+       // System.out.println(parts[2]);
+       // System.out.println(parts[3]);
+      //  System.out.println(parts[4]);
+    System.out.println(name1.replaceAll("I AM","she is"));
+        System.out.println(name1.startsWith("I"));
+        System.out.println(name1.endsWith("o"));
+        System.out.println(name.contains("g"));
+        System.out.println(name.compareTo(name2));
+        System.out.println(name.equalsIgnoreCase(name2));
+        System.out.println(name.equals(name2));
+
+
+
+
+       // System.out.println("raj\tesh");//\t means tab = 1space
+       // System.out.println("raj\besh");// \b means backspace = 1 latter delete
+      //  System.out.println("raj\nesh");// \n means new  line start
+       // System.out.println("raj\resh");// \r remain right side delete left side
+     //   System.out.println("raj\'esh"); // \'add single quot
+       // System.out.println("raj\"esh");  //\" add single quot
+     //   System.out.println("raj\\esh"); // add backward slash
+
+
        // System.out.println(b%a);
        // System.out.println(a++);//10
        // System.out.println(a); //11
